@@ -4,4 +4,5 @@
 # Welcome to Bash Scripting!
 
 # TO DO: Print the following in the console using echo command
-your code here...
+echo "Hello! My name is Raeselyn."
+echo "Welcome to Bash Scripting!"
