@@ -2,16 +2,18 @@
 # TO DO: Create a simple login system
 
 # Expected username and password (you can change the value)
-correct_username="user"
-correct_password="pass"
+correct_username="Rae"
+correct_password="password123"
 
 # TO DO: Ask the user to enter their username and password
-your code here
-your code here
+read -p "Enter username: " usern
+read -p "Enter password: " pw
 
 # TO DO: Determine if the credentials are valid
-your code here
-your code here
-your code here
-your code here
-your code here
+if [[ "$usern" == "$correct_username" && "$pw" == "$correct_password" ]]; then
+    echo "Your password is correct."
+
+else
+    echo "Username or password incorrect. Re-enter credentials."
+
+fi

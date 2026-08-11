@@ -2,17 +2,22 @@
 # TO DO: Ask the user to enter a color
 
 # TO DO: Read the color input from the user
-you
+red="red"
+yellow="yellow"
+green="green"
+
+read -p "Enter color: " color
 
 # Print the following depending on the color input
-# "green"  -> print "Go"
-# "yellow" -> print "Wait..."
-# "red"    -> print "Stop"
-# Everything else -> print "Malfunction"
+if [[ "$color" == "$green" ]]; then 
+    echo "Go! Go! Go!" 
 
-# TO DO: Determine the appropriate action based on the color input
-your code here
-your code here
-your code here
-your code here
-your code here
+elif [[ "$color" == "$yellow" ]] ; then 
+    echo "Wait..."
+
+elif [[ "$color" == "$red" ]]; then
+    echo "Stop, ngani!"
+
+else
+    echo "MALFUNCTION, NYAWA!"
+fi

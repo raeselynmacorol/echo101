@@ -3,9 +3,17 @@
 
 # Define a list of items
 items=("rice" "noodles" "toyo" "spam" "coffee")
-item_to_find="spam"
+read -p "What is your item to find? " item_to_find
+
 
 # TO DO: Search for the item in the list
-your code here
-your code here
-your code here
+for items in "${items[@]}";
+
+do
+    if [[ "$items" == "$item_to_find" ]]; then
+        echo "$item_to_find found!"
+    fi
+
+done
+
+

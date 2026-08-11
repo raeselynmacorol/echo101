@@ -5,7 +5,7 @@
 websites=("google.com" "facebook.com" "yahoo.com" "youtube.com" "eugene.com")
 
 # TO DO: Print each website in the list using for loop array
-your code here
-your code here
-your code here
-your code here
+for website in "${websites[@]}"
+do
+    echo "$website"
+done

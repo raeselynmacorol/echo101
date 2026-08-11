@@ -4,8 +4,10 @@
 for ((item=0; item<100; item++))
 do
     # TO DO: Skip numbers 20 to 80
-    your code here
+    if (( item >= 20 && item <= 80 )); then
+        continue
+    fi
 
     # TO DO: Print the current number
-    your code here
+    echo $item
 done
