@@ -1,17 +1,24 @@
 #!/bin/bash
 
 # Ask the user for three values
-read -p "Enter expense_1: " expense_1
-read -p "Enter expense_2: " expense_2
-read -p "Enter expense_3: " expense_3
+declare -i Nike
+declare -i Puma
+declare -i Adidas
+declare -i total
+
+read -p "Enter price of Nike: " Nike
+read -p "Enter price of Puma: " Puma
+read -p "Enter price of Adidas: " Adidas
 
 # Print each information one line at a time
-your code here
-your code here
-your code here
+echo
+echo "Your expense list are:"
+echo "Nike: $Nike"
+echo "Puma: $Puma" 
+echo "Adidas: $Adidas" 
 
 # Calculate the sum of the numbers
-your code here
+total=Nike+Puma+Adidas
 
 # Print the total expense
-your code here
+echo "Your total shoes expenses is: $total"

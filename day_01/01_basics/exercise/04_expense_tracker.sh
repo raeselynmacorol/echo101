@@ -1,13 +1,19 @@
 #!/bin/bash
 
 # Ask the user for three values
-your code here
-your code here
-your code here
+declare -i Nike
+declare -i Puma
+declare -i Adidas
+declare -i total
+
+read -p "Enter price of Nike: " Nike
+read -p "Enter price of Puma: " Puma
+read -p "Enter price of Adida: " Adidas
 
 # Print each information one line at a time
 echo
 echo "Your expense list are:"
-your code here
-your code here
-your code here
+echo "Nike: $Nike"
+echo "Puma: $Puma" 
+echo "Adidas: $Adidas" 
+

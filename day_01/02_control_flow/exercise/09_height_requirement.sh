@@ -5,13 +5,12 @@
 minimum_height=138
 
 # TO DO: Ask the user for their height
-your code here
+read -p "What is your height in cm? " user_height
 
 # TO DO: Determine if the user can enter the ride
-your code here
-your code here
-your code here
-your code here
+height=$((( user_height >= minimum_height )) && echo "Yes, you can enter" || echo "No, you can't!")
 
-# TO DO: Print the result
-your code here
+echo "$height"
+
+
+

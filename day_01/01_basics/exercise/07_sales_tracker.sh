@@ -1,13 +1,28 @@
 #!/bin/bash
 
-# Ask the cost and quantity for three separate items
+echo "MENU"
+echo "Latte: Php 3.5"
+echo "Espresso: Php 2.75"
+echo "Cappuccino: Php 4.0"
 
-your code here
-your code here
-your code here
+
+# Ask the cost and quantity for three separate items
+echo
+read -p "How  much is the cost of Latte? " cost1
+read -p "How many Latte? " qty1
+
+echo
+read -p "How  much is the cost of Espresso? " cost2
+read -p "How many Espresso? " qty2
+
+echo
+read -p "How  much is the cost of Cappucino? " cost3
+read -p "How many Cappucino? " qty3
 
 # Calculate the total
-your code here
+total=$(echo "scale=2; ($cost1 * $qty1) + ($cost2 * $qty2) + ($cost3 * $qty3)" | bc )
+
 
 # print the total
-your code here
+echo
+echo "Your total gastos is: Php $total"

@@ -1,11 +1,13 @@
 #!/bin/bash
 # TO DO: Print the following in the console:
 
+echo "MENU"
+
 # Post: Latte (3.5)
-your code here
+echo "Latte: Php 3.5"
 
 # Post: Espresso (2.75)"
-your code here
+echo "Espresso: Php 2.75"
 
 # Post: Cappuccino (4.0)
-your code here
+echo "Cappuccino: Php 4.0"
